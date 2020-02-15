@@ -27,11 +27,13 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://edmontonbitcoin.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: YEGBTC
-github_username:  roskelld
-
+instagram_username: EdmontonBitcoinAssociation
+github_username: roskelld
+telegram_username: YEGBTC
+meetup_username: yegbitcoin
 # Images
 logo: "assets/logo.png"
-logo_square: "assets/logo_square.png"
+logo_square: "assets/logo_square.jpg"
 
 # Tracking
 google_analytics: "GTM-MC7X7QQ"

@@ -1,25 +1,42 @@
 
-<footer class="page-footer">
-  <div class="container">
-    <div class="row">
-      <div class="col l6 s12">
-        <h5 class="white-text">Footer Content</h5>
-        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+<footer class="page-footer orange">
+  <div class="container-95">
+      <div class="row">
+          <div class="col s12">
+              <h3>{{ site.title }}</h3>
+          </div>
       </div>
-      <div class="col l4 offset-l2 s12">
-        <h5 class="white-text">Links</h5>
+    <div class="row">
+      <div class="col s12 l6">
+        <h5 class="white-text">ABOUT</h5>
+        <p class="grey-text text-lighten-4">
+            You can use rows and columns here to organize your footer content.
+        </p>
+      </div>
+      <div class="col s12 m6 l3 ">
+        <h5 class="white-text">CONNECT</h5>
         <ul>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-          <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://twitter.com/{{site.twitter_username}}"><i class="fab fa-twitter-square"></i> Twitter</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://instagram.com/{{site.instagram_username}}"><i class="fab fa-instagram"></i> Instagram</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://t.me/{{site.telegram_username}}"><i class="fab fa-telegram"></i> Telegram</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-slack"></i> Slack</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://meetup.com/{{site.meetup_username}}"><i class="fab fa-meetup"></i> Meetup</a></li>
+        </ul>
+      </div>
+      <div class="col s12 m6 l3 ">
+        <h5 class="white-text">LINK</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="https://bitcoin.org"><i class="fab fa-bitcoin"></i> Bitcoin</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.lopp.net/"><i class="fas fa-globe"></i> Lopp.net</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-telegram"></i> Telegram</a></li>
+          <li><a class="grey-text text-lighten-3" href="#!"><i class="fab fa-slack"></i> Slack</a></li>
         </ul>
       </div>
     </div>
   </div>
   <div class="footer-copyright">
     <div class="container">
-    © 2014 Copyright Text
+    © 2020 {{ site.title }}
     <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
     </div>
   </div>

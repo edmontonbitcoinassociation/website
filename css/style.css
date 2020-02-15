@@ -7,3 +7,15 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+
+/*  materialize override + extras */
+.container-95 {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.brand-logo {
+    height: 100%;
+}
