@@ -1,13 +1,17 @@
+:root {
+    --bitcoin-orange: rgb(255,153,0);
+    --eba-blue: #0d1744;
+}
+
 body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 main {
-  flex: 1 0 auto;
+    flex: 1 0 auto;
 }
-
 
 /*  materialize override + extras */
 .container-95 {
@@ -18,4 +22,30 @@ main {
 
 .brand-logo {
     height: 100%;
+    padding: 0 1rem !important;
+}
+
+.hero {
+    position: relative;
+    height: 89vh;
+    overflow: hidden;
+}
+
+.company-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--bitcoin-orange);
+}
+
+.page-center {
+    z-index: 999;
+    position: absolute;
+    bottom: 55%;
+    left: 46%;
+    transform: translateX(-45%) translateY(45%);
+    font-size: .85em;
+    display: block;
+    width: 70%;
+    border: 1px black solid;
+    text-align: center;
 }
